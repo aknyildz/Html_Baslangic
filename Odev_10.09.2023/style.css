@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #231d76;
+    text-decoration: none;
+}
+
+body
+{
+    background: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #ffffff;
+    z-index: 100;
+    margin-top: 15px;
+}
+
+.logo
+{
+    font-size: 2em;
+    color: #231d76;
+    pointer-events: none;
+
+}
+
+.navigation a
+{
+    text-decoration: none;
+    color: #231d76;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.navigation a:hover, .navigation a.active
+{
+    background: #231d76;
+    color: #ffff;
+}
+
+.eticaret
+{
+    /*border: 1px solid black;*/
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    align-items: center;
+}
+
+.ucmarka
+{
+    /*border: 1px solid black;/*
+    /*background-color: black;*/
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 585px;
+    align-items: center;
+}
+
+.marka1, .marka2, .marka3
+{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    width: 33%;
+}
+
+div h1
+{
+    color: #231d76;
+    margin: 10px;
+}
+div h2
+{
+    color: #231d76;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.bizkimiz
+{
+    /*border: 1px solid black;*/
+    /*background-color: black;*/
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 985px;
+    align-items: center;
+}
+.bizicdiv
+{
+    /*border: 1px solid black;*/
+    display: inline-table;
+    height: 335px;
+    align-items: center;
+    width: 100%;
+}
+.yonetim1
+{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    height: 150px;
+    align-items: center;
+    width: 49%;
+}
+.yonetim2
+{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    height: 150px;
+    align-items: center;
+    width: 32%;
+}
+.besurun
+{
+    /*border: 1px solid black;*/
+    height: 400px;
+    width: 100%;
+    top: 1400px;
+    align-items: center;
+    position:absolute;
+    display: inline-block;
+}
+.besurun2
+{    
+    /*border: 1px solid black;*/
+    display: inline-table;
+    height: 300px;
+    align-items: center;
+    width: 18%;
+}
+div.besurun2 img
+{
+    width: 30vh;
+}
+
+div.besurun2 img:hover
+{
+    width: 60vh;
+    transition: 1s;
+}
+.bottom
+{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    top: 1980px;
+    align-items: center;
+    position:absolute;
+    display: inline-table;
+}
+.bottom2
+{    
+    /* border: 1px solid black; */
+    display: inline-table;
+    height: 100px;
+    align-items: center;
+    width: 40vh;
+}
