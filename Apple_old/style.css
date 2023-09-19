@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100');
+    *
+        {
+			margin: 0;
+			font-family: 'Alegreya Sans', sans-serif;
+			font-weight:100px;
+            color: white;
+		}
+    a.baslik   
+        {
+            text-decoration: none;
+            color: white;
+        }
+    a.baslik:hover
+        {
+            font-weight:bolder;
+        }
+    
+    .header{
+        display: flex;
+        background-color: black;
+        height: 45px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+
+    .headerbaslik{
+        color: white;
+        text-align: center;
+        margin: 4vh;
+    }
+    h1.anabaslik
+        {
+            text-align: center;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont;
+            padding-top: 48px;
+            font-size: 3.2em;
+            font-style:inherit;
+        }
+        h3.anabaslik2
+        {
+            text-align: center;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 1.7em;
+            font-weight: bolder;
+        }
+
+        h4.anabaslik3
+        {
+            text-align: center;
+            color: #86868b63;
+            font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,sans-serif;
+            font-size: 16px;
+        }
+
+        h5
+        {
+            font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,Arial,sans-serif;
+            font-size: 19px;
+            padding-top: 20px;
+
+        }
+        h5:hover
+        {
+            font-style: normal;
+            font-variant: normal;
+            font-kerning: auto;
+            font-optical-sizing: auto;
+            font-stretch:100%;
+            font-variation-settings:normal;
+            font-feature-settings:normal;
+            text-transform:none;
+            text-decoration: underline solid rgb(41, 151, 255);
+            text-indent: 0px;
+        }
+        div.orta
+        {
+            height: 550px; 
+            background-image: url(./img/hero_iphone15pro_announce__c1coc7n3a0uq_largetall\ 2.jpg);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 2000px;
+        }
+        h1.anabaslik2
+        {
+            text-align: center;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont;
+            padding-top: 48px;
+            font-size: 3.2em;
+            font-style:inherit;
+            color: black;
+        }
+        h3.anabaslik3
+        {
+            text-align: center;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 1.7em;
+            font-weight: bolder;
+            color: black;
+        }
+        div.orta2
+        {
+            height: 550px; 
+            background-image: url(./img/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 2000px;            
+        }
+        div.watch
+        {
+            height: 550px;
+            background-image: url(./img/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
